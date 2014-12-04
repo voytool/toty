@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactManager">
+    <artifact type="war" name="toty-war:war">
+      <output-path>$PROJECT_DIR$/toty-war/target</output-path>
+      <root id="archive" name="toty-war-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="toty-war:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="toty-war:war exploded">
+      <output-path>$PROJECT_DIR$/toty-war/target/toty-war-1.0-SNAPSHOT</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="toty-war/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="toty-war" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.9.10" />
+            <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="ear" name="toty-ear:ear">
+      <output-path>$PROJECT_DIR$/toty-ear/target</output-path>
+      <root id="archive" name="toty-ear-1.0-SNAPSHOT.ear">
+        <element id="artifact" artifact-name="toty-ear:ear exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-ear" name="toty-ear:ear exploded">
+      <output-path>$PROJECT_DIR$/toty-ear/target/toty-ear-1.0-SNAPSHOT</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="toty-ear/javaeeApplication/JavaEE" />
+        <element id="dir-copy" path="$PROJECT_DIR$/toty-ear/src/main/application" />
+        <element id="directory" name="toty-war-1.0-SNAPSHOT.war">
+          <element id="artifact" artifact-name="toty-war:war exploded" />
+        </element>
+      </root>
+    </artifact>
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="toty-ear" />
+        <module name="toty-war" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toty-ear" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toty-war" charset="UTF-8" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="google-app-engine" url="file://$PROJECT_DIR$/toty-ear" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/toty-ear" />
+    <file type="web" url="file://$PROJECT_DIR$/toty-war" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gaeskeleton.iml" filepath="$PROJECT_DIR$/gaeskeleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toty-ear/toty-ear.iml" filepath="$PROJECT_DIR$/toty-ear/toty-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toty-war/toty-war.iml" filepath="$PROJECT_DIR$/toty-war/toty-war.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.9.10">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-1.0-sdk/1.9.10/appengine-api-1.0-sdk-1.9.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-1.0-sdk/1.9.10/appengine-api-1.0-sdk-1.9.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-1.0-sdk/1.9.10/appengine-api-1.0-sdk-1.9.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.appengine:appengine-api-stubs:1.9.10">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-stubs/1.9.10/appengine-api-stubs-1.9.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-stubs/1.9.10/appengine-api-stubs-1.9.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-stubs/1.9.10/appengine-api-stubs-1.9.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.appengine:appengine-testing:1.9.10">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-testing/1.9.10/appengine-testing-1.9.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-testing/1.9.10/appengine-testing-1.9.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-testing/1.9.10/appengine-testing-1.9.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.servlet:servlet-api:2.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: jstl:jstl:1.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/jstl/jstl/1.2/jstl-1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/jstl/jstl/1.2/jstl-1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/jstl/jstl/1.2/jstl-1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
