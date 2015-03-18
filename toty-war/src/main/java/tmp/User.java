@@ -1,4 +1,4 @@
-package guru.seledka.toty.model;
+package tmp;
 
 import com.googlecode.objectify.annotation.Cache;
 import com.googlecode.objectify.annotation.Entity;

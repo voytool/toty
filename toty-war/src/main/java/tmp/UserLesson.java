@@ -1,4 +1,4 @@
-package guru.seledka.toty.model;
+package tmp;
 
 import com.googlecode.objectify.Key;
 import com.googlecode.objectify.Ref;

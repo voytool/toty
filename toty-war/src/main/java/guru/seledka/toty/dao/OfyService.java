@@ -3,9 +3,9 @@ package guru.seledka.toty.dao;
 import com.googlecode.objectify.Objectify;
 import com.googlecode.objectify.ObjectifyFactory;
 import com.googlecode.objectify.ObjectifyService;
-import guru.seledka.toty.model.Lesson;
-import guru.seledka.toty.model.User;
-import guru.seledka.toty.model.UserLesson;
+import tmp.Lesson;
+import tmp.User;
+import tmp.UserLesson;
 
 /**
  * Created by Olga on 1/5/2015.
