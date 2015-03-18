@@ -16,7 +16,7 @@
             <element id="module-output" name="toty-war" />
           </element>
           <element id="directory" name="lib">
-            <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.9.10" />
+            <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.9.18" />
             <element id="library" level="project" name="Maven: com.googlecode.objectify:objectify:5.1.3" />
             <element id="library" level="project" name="Maven: com.google.guava:guava:17.0" />
             <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
@@ -68,7 +68,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="toty-war" target="1.8" />
+      <module name="toty-war" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="DependencyValidationManager">
@@ -108,37 +108,37 @@
     <mapping directory="" vcs="Git" />
   </component>
   <component name="libraryTable">
-    <library name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.9.10">
+    <library name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.9.18">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-1.0-sdk/1.9.10/appengine-api-1.0-sdk-1.9.10.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-1.0-sdk/1.9.18/appengine-api-1.0-sdk-1.9.18.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-1.0-sdk/1.9.10/appengine-api-1.0-sdk-1.9.10-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-1.0-sdk/1.9.18/appengine-api-1.0-sdk-1.9.18-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-1.0-sdk/1.9.10/appengine-api-1.0-sdk-1.9.10-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-1.0-sdk/1.9.18/appengine-api-1.0-sdk-1.9.18-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.google.appengine:appengine-api-stubs:1.9.10">
+    <library name="Maven: com.google.appengine:appengine-api-stubs:1.9.18">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-stubs/1.9.10/appengine-api-stubs-1.9.10.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-stubs/1.9.18/appengine-api-stubs-1.9.18.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-stubs/1.9.10/appengine-api-stubs-1.9.10-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-stubs/1.9.18/appengine-api-stubs-1.9.18-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-stubs/1.9.10/appengine-api-stubs-1.9.10-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-stubs/1.9.18/appengine-api-stubs-1.9.18-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.google.appengine:appengine-testing:1.9.10">
+    <library name="Maven: com.google.appengine:appengine-testing:1.9.18">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-testing/1.9.10/appengine-testing-1.9.10.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-testing/1.9.18/appengine-testing-1.9.18.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-testing/1.9.10/appengine-testing-1.9.10-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-testing/1.9.18/appengine-testing-1.9.18-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-testing/1.9.10/appengine-testing-1.9.10-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-testing/1.9.18/appengine-testing-1.9.18-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.google.guava:guava:17.0">
