@@ -19,7 +19,7 @@ public class IndexHtmlServlet extends HttpServlet {
   @Override
   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     response.setContentType(CONTENT_TYPE);
-    
+
     try (PrintWriter out = response.getWriter()) {
       response.setStatus(HttpServletResponse.SC_OK);
       out.write(getResourceContent(INDEX_HTML));
