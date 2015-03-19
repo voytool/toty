@@ -18,11 +18,17 @@ public class IndexHtmlServlet extends HttpServlet {
 
   @Override
   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    try(InputStream inputStream = getClass().getResource(INDEX_HTML).openStream()){
-      response.setContentType(CONTENT_TYPE);
-      PrintWriter out = response.getWriter();
+    response.setContentType(CONTENT_TYPE);
+    
+    try (PrintWriter out = response.getWriter()) {
       response.setStatus(HttpServletResponse.SC_OK);
-      out.write(convertStreamToString(inputStream));
+      out.write(getResourceContent(INDEX_HTML));
+    }
+  }
+
+  private String getResourceContent(String filename) throws IOException {
+    try (InputStream inputStream = getClass().getResource(filename).openStream()) {
+      return convertStreamToString(inputStream);
     }
   }
 
@@ -30,6 +36,7 @@ public class IndexHtmlServlet extends HttpServlet {
    * The reason it works is because Scanner iterates over tokens in the stream, and in this case we separate tokens
    * using "beginning of the input boundary" (\A) thus giving us only one token for the entire contents of the stream.
    * See https://weblogs.java.net/blog/pat/archive/2004/10/stupid_scanner_1.html for reference.
+   *
    * @param inputStream stream to read data from
    * @return contents of the stream as a string
    */

@@ -1,4 +1,4 @@
-package guru.seledka.toty.dao;
+package tmp.dao;
 
 import com.googlecode.objectify.Objectify;
 import com.googlecode.objectify.ObjectifyFactory;
